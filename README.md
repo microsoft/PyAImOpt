@@ -13,8 +13,6 @@ problems as QUMO.
 You can also use this repo to provide feedback (including bugs,
 and suggestions) to the project using the [Issues]() page.
 
-[//]: # TODO: Add link to main package, as well as other relevant links.
-
 ## Getting Started
 
 You need a working installation of Python;
@@ -119,12 +117,6 @@ and then you should be able to retrieve the results with:
 aim retrieve cfab81b9-d0c7-427e-9ee0-c9b9f198319f
 ```
 
-[//]: # TODO:
-[//]: # 
-[//]: # 1. Add the URL to Issues.
-[//]: # 
-[//]: # 2. Add the `PACKAGE_SOURCE_URL` when it becomes available.
-
 ## Example problems
 
 The repo contains examples of how to formulate `QUMO` problems
@@ -135,8 +127,6 @@ In summary, the examples are arranged in the following directories:
   Example inputs written for the interactive notebook experience in Visual Studio Code.
   You could run directly from the command line, but you will not see the associated
   documentation.
-
-[//]: # TODO: Describe and show how to build your code and run the tests.
 
 ## Contributing
 
