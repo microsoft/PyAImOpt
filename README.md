@@ -11,7 +11,7 @@ This repository contains simple examples that demonstrate
 the API to access the service, and also examples of modeling
 problems as QUMO.
 You can also use this repo to provide feedback (including bugs,
-and suggestions) to the project using the [Issues]() page.
+and suggestions) to the project using the [Issues](https://github.com/microsoft/PyAImOpt/issues) page.
 
 ## Getting Started
 
