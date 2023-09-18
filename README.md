@@ -1,5 +1,4 @@
 # Examples for the PyAIMOpt Python package
-
 ## Introduction
 
 `PyAIMOpt` provides a Python interface to access the
@@ -12,6 +11,27 @@ the API to access the service, and also examples of modeling
 problems as QUMO.
 You can also use this repo to provide feedback (including bugs,
 and suggestions) to the project using the [Issues](https://github.com/microsoft/PyAImOpt/issues) page.
+
+## License
+
+Please see the LICENSE file. The package depends on a number of external packages.
+The list of those packages and their corresponding licences can be found in the [NOTICE.html](file:///NOTICE.html) file.
+
+## Authentication
+
+Access to the AIM service is restricted to authorized individuals who have been successfully authenticated according to IETF OAUTH2 standards: our sample python scripts achieve this with emphasis on least intrusive user experience.
+
+## Installation
+
+We are working towards a public release of this project and an accompanying public python wheel file, but in the interim you may download and install manuallly using the python "pip" installer as follows.
+
+Access via a browser is needed to complete the authentication protocol required by github for access to github project prior to its public version. Failure to get the right will result in an http 404 error diplayed on the browser.
+
+If the browser succeeds to autheticate you with github, then on the right hand side of the displayed page will be a "Releases" section in which appears one or more items named something like "PyAimOpt v0.6.0", one of which will be flagged in green as "latest". The "latest" is the one you want: click on it to observe its contents, then click on the wheel file (the one whose name ends with ".whl") and take not of where yout browser puts the file on your PC (for example on Windows it will be in your personal "downloads" folder as displayed by Windows File Explorer).
+
+Having downloaded the wheel file, you can instal it into your python environment using the python pip installer. For example you might tpe:
+pip install pyaimopt-0.6.0-py3-none-any.whl
+
 
 ## Getting Started
 
@@ -130,7 +150,9 @@ In summary, the examples are arranged in the following directories:
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Initially, this project is not accepting contributions, but we do welcome feedback and suggestions. 
+
+In the event that we accept contributions in future, we anticpate that contributions will require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
@@ -149,3 +171,9 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+
+## Contact Information
+
+Please refer to the SUPPORT.md file.
+
