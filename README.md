@@ -23,13 +23,13 @@ Access to the AIM service is restricted to authorized individuals who have been 
 
 ## Installation
 
-We are working towards a public release of this project and an accompanying public python wheel file, but in the interim you may download and install manuallly using the python "pip" installer as follows.
+We are working towards a public release of this project and an accompanying public python wheel file, but in the interim you may download and install manually using the python "pip" installer as follows.
 
-Access via a browser is needed to complete the authentication protocol required by github for access to github project prior to its public version. Failure to get the right will result in an http 404 error diplayed on the browser.
+Access via a browser is needed to complete the authentication protocol required by github for access to github project prior to its public version. Failure to get the right will result in an http 404 error displayed on the browser.
 
-If the browser succeeds to autheticate you with github, then on the right hand side of the displayed page will be a "Releases" section in which appears one or more items named something like "PyAimOpt v0.6.0", one of which will be flagged in green as "latest". The "latest" is the one you want: click on it to observe its contents, then click on the wheel file (the one whose name ends with ".whl") and take not of where yout browser puts the file on your PC (for example on Windows it will be in your personal "downloads" folder as displayed by Windows File Explorer).
+If the browser succeeds to authenticate you with github, then on the right hand side of the displayed page will be a "Releases" section in which appears one or more items named something like "PyAimOpt v0.6.0", one of which will be flagged in green as "latest". The "latest" is the one you want: click on it to observe its contents, then click on the wheel file (the one whose name ends with ".whl") and take not of where your browser puts the file on your PC (for example on Windows it will be in your personal "downloads" folder as displayed by Windows File Explorer).
 
-Having downloaded the wheel file, you can instal it into your python environment using the python pip installer. For example you might tpe:
+Having downloaded the wheel file, you can instal it into your python environment using the python pip installer. For example you might enter:
 pip install pyaimopt-0.6.0-py3-none-any.whl
 
 
@@ -172,6 +172,43 @@ trademarks or logos is subject to and must follow
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
 
+## Security
+
+Microsoft takes the security of our software products and services seriously, which includes all source code repositories managed through our GitHub organizations, which include [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet), [Xamarin](https://github.com/xamarin), and [our GitHub organizations](https://opensource.microsoft.com/).
+
+If you believe you have found a security vulnerability in any Microsoft-owned repository that meets [Microsoft's definition of a security vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10)), please report it to us as described below.
+
+## Reporting Security Issues
+
+**Please do not report security vulnerabilities through public GitHub issues.**
+
+Instead, please report them to the Microsoft Security Response Center (MSRC) at [https://msrc.microsoft.com/create-report](https://msrc.microsoft.com/create-report).
+
+If you prefer to submit without logging in, send email to [secure@microsoft.com](mailto:secure@microsoft.com).  If possible, encrypt your message with our PGP key; please download it from the [Microsoft Security Response Center PGP Key page](https://www.microsoft.com/en-us/msrc/pgp-key-msrc).
+
+You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Additional information can be found at [microsoft.com/msrc](https://www.microsoft.com/msrc).
+
+Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
+
+  * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
+  * Full paths of source file(s) related to the manifestation of the issue
+  * The location of the affected source code (tag/branch/commit or direct URL)
+  * Any special configuration required to reproduce the issue
+  * Step-by-step instructions to reproduce the issue
+  * Proof-of-concept or exploit code (if possible)
+  * Impact of the issue, including how an attacker might exploit the issue
+
+This information will help us triage your report more quickly.
+
+If you are reporting for a bug bounty, more complete reports can contribute to a higher bounty award. Please visit our [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) page for more details about our active programs.
+
+## Preferred Languages
+
+We prefer all communications to be in English.
+
+## Policy
+
+Microsoft follows the principle of [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd).
 
 ## Contact Information
 
