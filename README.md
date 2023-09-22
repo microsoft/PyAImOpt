@@ -150,19 +150,7 @@ In summary, the examples are arranged in the following directories:
 
 ## Contributing
 
-Initially, this project is not accepting contributions, but we do welcome feedback and suggestions. 
-
-In the event that we accept contributions in future, we anticpate that contributions will require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Initially, this project is not accepting contributions, but we do welcome feedback and suggestions. In the event that we accept contributions in future, please refer to the CONTRIBUTING.md file.
 
 ## Trademarks
 
@@ -171,6 +159,10 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+## Privacy and Telemtry Notice.
+
+When you use the software to access the AIM service, for example to transfer data into or out of the service, or if you send queries the service requesting some aspect of its state, then basic telemtry concerning your use of the service will be routinely collected by the service in the form of audit logs of activity. For further detail please see the PRIVACY.md file.
 
 ## Security
 
