@@ -23,15 +23,15 @@ Access to the AIM service is restricted to authorized individuals who have been 
 
 ## Installation
 
-We are working towards a public release of this project and an accompanying public python wheel file, but in the interim you may download and install manually using the python "pip" installer as follows.
+We are working towards a public release of this project and an accompanying public python wheel file. In the interim you may download and install our python package manually, using the python "pip" installer as follows.
 
-Access via a browser is needed to complete the authentication protocol required by github for access to github project prior to its public version. Failure to get the right will result in an http 404 error displayed on the browser.
+On the right hand side of the displayed page is a "Releases" section in which appear one or more items named something like "PyAimOpt v0.6.0", one of which will be flagged in green as "latest". The "latest" is the one you want: click on it to expand its contents, then click on the wheel file (the one whose name ends with ".whl") and take note of where your browser puts the file on your PC, for example on Windows it will be in your personal "downloads" folder when viewed using Windows File Explorer.
 
-If the browser succeeds to authenticate you with github, then on the right hand side of the displayed page will be a "Releases" section in which appears one or more items named something like "PyAimOpt v0.6.0", one of which will be flagged in green as "latest". The "latest" is the one you want: click on it to observe its contents, then click on the wheel file (the one whose name ends with ".whl") and take not of where your browser puts the file on your PC (for example on Windows it will be in your personal "downloads" folder as displayed by Windows File Explorer).
+Having downloaded the wheel file, you can install it into your python environment using the python pip installer. For example you might enter:
 
-Having downloaded the wheel file, you can instal it into your python environment using the python pip installer. For example you might enter:
+```cmd
 pip install pyaimopt-0.6.0-py3-none-any.whl
-
+```
 
 ## Getting Started
 
@@ -160,9 +160,9 @@ trademarks or logos is subject to and must follow
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
 
-## Privacy and Telemtry Notice.
+## Privacy and Telemetry Notice.
 
-When you use the software to access the AIM service, for example to transfer data into or out of the service, or if you send queries the service requesting some aspect of its state, then basic telemtry concerning your use of the service will be routinely collected by the service in the form of audit logs of activity. For further detail please see the PRIVACY.md file.
+When you use the software to access the AIM service, for example to transfer data into or out of the service, or if you send queries the service requesting some aspect of its state, then basic telemetry concerning your use of the service will be routinely collected by the service in the form of audit logs of activity. For further detail please see the PRIVACY.md file.
 
 ## Security
 
