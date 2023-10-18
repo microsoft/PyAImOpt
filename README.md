@@ -64,40 +64,6 @@ Install the main `PyAIMOpt` package:
 pip install pyaimopt -i <PACKAGE_SOURCE_URL>
 ```
 
-As part of getting access to the AIM Service, you will receive a `.aimenv.conf` file
-that will give you access to the service.
-Copy the file locally (but, avoid committing to your source control system),
-and then set the environmental variable `AIM_SETTINGS_ENV` to point to
-(the full path) of that file. Replace `<fullpath>` with the directory where you downloaded
-the `.aimenv.conf` file.
-
-With PowerShell:
-
-```PowerShell
-$Env:AIM_SETTINGS_ENV="<fullpath>\.aimenv.conf"
-```
-
-With bash:
-
-```bash
-export AIM_SETTINGS_ENV=<fullpath>/.aimenv.conf
-```
-
-Please make sure that indeed the file exists, and the environment variable has been set correctly,
-by checking that the command below does not generate an error and the output is not empty.
-
-With PowerShell:
-
-```PowerShell
-type $Env:AIM_SETTINGS_ENV
-```
-
-With bash:
-
-```bash
-cat $AIM_SETTINGS_ENV
-```
-
 If everything has been set correctly, you should have access to the `aim` command line utility.
 Run the following command to verify that you have indeed access to the service:
 
@@ -154,8 +120,8 @@ Initially, this project is not accepting contributions, but we do welcome feedba
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
