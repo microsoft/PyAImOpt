@@ -559,4 +559,4 @@ cython_debug/
 .idea/
 
 .aimenv.*
-
+.vscode/
